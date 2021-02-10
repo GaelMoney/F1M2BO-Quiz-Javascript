@@ -10,65 +10,109 @@ const quiz1 =
     "quizContent":		
 		[
 			{
-				"question": "In welke plaats is museum LAM?",
+				"question": "Als je vrienden geld nodig hebben geef je dat dan?",
 				"answers": [{
-						"answer": "Lisse",
+						"answer": "Ja",
 						"feedback": true
 					},
 					{
-						"answer": "Landgoed Keukenhof",
+						"answer": "Nee",
 						"feedback": true
 					},
 					{
-						"answer": "Sassenheim",
-						"feedback": false
+						"answer": "Ligt aan de situatie",
+						"feedback": true
 					},
 					{
-						"answer": "Haarlem",
-						"feedback": false
+						"answer": "ander antwoord",
+						"feedback": true
 					},
 					{
-						"answer": "Lammerschans",
-						"feedback": false
+						"answer": "Ja en Nee",
+						"feedback": true
 					}
 				]
 			},
 			{
-				"question": "LAM – Heeft de collectie een thema?",
+				"question": "Verwacht je iets terug nadat je iemand hebt geholpen",
 				"answers": [{
-						"answer": "Street art",
-						"feedback": false
-					},
-					{
-						"answer": "Food art",
+						"answer": "Ja",
 						"feedback": true
 					},
 					{
-						"answer": "Colorfull art",
-						"feedback": false
+						"answer": "Nee",
+						"feedback": true
 					},
 					{
-						"answer": "Kitsch art",
-						"feedback": false
+						"answer": "Ligt aan de situatie",
+						"feedback": true
+					},
+					{
+						"answer": "ander antwoord",
+						"feedback": true
 					}
 				]
 			},
 			{
-				"question": "Het zelfportret van Tom Friedman is gemaakt van: ?",
+				"question": "Hou je van kunst?",
 				"answers": [{
-						"answer": "spaghetti",
-						"feedback": false
+						"answer": "Ja",
+						"feedback": true
 					},
 					{
-						"answer": "kauwgom",
-						"feedback": false
+						"answer": "Nee",
+						"feedback": true
 					},
 					{
-						"answer": "winegums",
-						"feedback": false
+						"answer": "Ligt aan de situatie",
+						"feedback": true
 					},
 					{
-						"answer": "suikerklontjes",
+						"answer": "ander antwoord",
+						"feedback": true
+					}
+				]
+			},
+			{
+				"question":"Wat is je favoriete kleur?",
+				"answers":[{
+						"answer": "Rood",
+						"feedback": false
+					},
+			    	{		
+						"answer": "Nee",
+						"feedback": false
+					},
+					{	
+						"answer": "Paars",
+						"feedback": true
+					},
+					{	
+						"answer": "Andere kleur",
+						"feedback": true
+					}
+					
+				]
+			},
+			{
+						"question":"Welke sport speel je?",
+						"answers":[{
+
+					},
+					{
+						"answer": "Voetbal",
+						"feedback": true
+					},
+					{
+						"answer": "Basketbal",
+						"feedback": true
+					},
+					{
+						"answer": "Tennis",
+						"feedback": true
+					},
+					{
+						"answer": "Andere sport of geen sport",
 						"feedback": true
 					}
 				]
