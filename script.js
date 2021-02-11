@@ -5,6 +5,7 @@ const quizWrapper = document.getElementById('quizWrapper');
 const questionBox = document.getElementById('questionBox');
 const resultBox = document.getElementById('resultBox');
 const quizTitle = document.getElementById('quizTitle');
+const nextbutton = document.getElementById('myButton');
 
 let counter = 0; // aantal mutliple choice vragen
 let quiz; // object met quiz vragen
@@ -85,6 +86,13 @@ function finishQuiz() {
   resultBox.style.display = "block";
   quizWrapper.style.background = "silver";
   resultBox.innerHTML = "<h2>Jouw resultaat <br>goede antwoorden " + playerData.goodAnswers + "<br>foute antwoorden " + playerData.wrongAnswers + "</h2>";
+  nextbutton.style.display = "block";
 }
+nextbutton.addEventListener('click', function(){
+  quiz = quiz2; // kies de quiz
+  //  quiz = quiz2; // kies de quiz
+  initQuiz(); // start de quiz
+  nextbutton.style.display = "none";
+})
 
 init(); // start it

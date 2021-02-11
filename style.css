@@ -79,3 +79,6 @@ body{
   animation-name: wrongAnswerAnimation;
   animation-duration: 4s;
 }
+#myButton{
+  display:none;
+}
